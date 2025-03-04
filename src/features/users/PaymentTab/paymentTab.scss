@@ -1,0 +1,118 @@
+.paymentTab {
+    width: 75vw;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    .payHeader {
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 72.61px;
+        letter-spacing: -2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+        position: relative;
+        width: fit-content;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+
+    }
+    .payHeader::after {
+        content: "";
+        width: 100%;
+        height: 4px;
+        background: #FFA764;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        border-radius: 2px;
+    }
+
+    // .payUnderline {
+    //     width: 243px;
+    //     height: 4px;
+    //     background: #FFA764;
+    //     margin-top: 10px;
+    //     margin-bottom: 20px;
+    // }
+
+    .paymentContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        overflow: scroll;
+        width: 100%;
+    }
+
+    .payText {
+
+        // flex-basis: 50%;
+        // flex-shrink: 0;
+        // flex-grow: 0;
+        // max-width: 700px;
+
+        font-family: Manrope;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 45px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    .payFormWrapper {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+
+        .GForm {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid var(--color-dark);
+            width: 600px;
+            height: 56px;
+            color: var(--color-dark);
+            background-color: var(--color-background);
+
+            .GFormLink,
+            .GFormLink::placeholder {
+                color: var(--color-dark);
+                background: var(--color-background);
+                padding: 2px;
+
+                font-family: Inter;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 22.99px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+            }
+
+            .formArrow svg {
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+
+                g path {
+                    fill: var(--color-dark);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .paymentContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .payText {
+        margin-bottom: 50px;
+    }
+}

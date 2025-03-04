@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  appearance: 0;
+  border: 0;
+  user-select: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  /* Firefox */
+  font-family: inter;
+
+  &::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Edge, and Opera */
+  }
+}
+
+:root {
+  --color-primary: #6c9bcf;
+  --color-danger: #ff0060;
+  --color-success: #1b9c85;
+  --color-warning: #f7d060;
+  --color-info-dark: #7d8da1;
+  --color-white: #fff;
+  // --color-dark: #363949;
+  --color-dark: #000;
+  --color-light: rgba(174, 209, 222, 0.129);
+  --color-dark-variant: #677483;
+  --color-background: #FAFAFA;
+
+  --color-bg-greet: #6171FF;
+  --color-greet: #FAFAFA;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --input-background: #ffffff;
+  --input-text-color: #000000;
+  --border-color: #dcdcdc;
+  --boundary-color: rgb(229, 229, 229);
+  --box-shadow: 1rem 1rem 1rem var(--color-light);
+  --f1: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dark-mode {
+  // --color-white: rgb(24, 24, 24);
+  --color-white: #000;
+  // --color-dark: #edeffd;
+  --color-dark: #fff;
+  --color-light: rgba(141, 46, 243, 0.086);
+  --color-dark-variant: #a3bdcc;
+  // --color-background: rgb(31, 31, 31);
+  --color-background: #000;
+
+  --color-bg-greet: #B2BAFF;
+  --color-greet: #000000;
+
+  --box-shadow: 1rem 1rem 1rem var(--color-light);
+  --input-background: rgb(41, 41, 41);
+  --input-text-color: #e8e6e3;
+  --border-color: rgb(82, 82, 82);
+  --boundary-color: rgb(36, 36, 36);
+
+  .invert-logo {
+    filter: invert(100%);
+  }
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: var(--f1);
+  font-size: 0.88rem;
+  user-select: none;
+  overflow-x: hidden;
+  // color: var(--color-dark);
+  color: var(--color-dark);
+  background-color: var(--color-background);
+  transition: background-color 1s ease;
+}
+
+// input,
+// select {
+//
+//   padding: 15px;
+//   font-size: 16px;
+//   margin-bottom: 10px;
+//   width: 100px;
+//   border-radius: 10px;
+//   border: 1px solid var(--border-color);
+//   background-color: var(--input-background);
+//   color: var(--input-text-color);
+// }
+
+// @media screen and (max-width: 768px) {
+//   .right-section .nav .menu-btn {
+//     display: block;
+//     margin-left: 0.5rem;
+//     margin-right: auto;
+//   }
+
+//   main {
+//     padding: 0 1rem;
+//   }
+
+//   main .new-users .user-list .user {
+//     flex-basis: 35%;
+//   }
+
+//   main .recent-orders {
+//     position: relative;
+//     margin: 3rem 0 0 0;
+//     width: 100%;
+//   }
+
+//   main .recent-orders table {
+//     width: 100%;
+//     margin: 0;
+//   }
+// }

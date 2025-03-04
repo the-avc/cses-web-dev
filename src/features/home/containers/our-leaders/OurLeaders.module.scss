@@ -1,0 +1,55 @@
+.container {
+  background-image: url('/green-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .contentWrapper {
+    padding: 5% 6%;
+
+    .members {
+      padding: 4% 4%;
+      max-height: 36rem;
+      color: #fff;
+      font-size: 1.5vw;
+      font-weight: 200;
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      gap: 1.4vw;
+
+      .member {
+        width: auto;
+        text-align: center;
+        font-size: 1.2rem;
+        font-size: clamp(0.8rem, 0.6rem + 1vw, 1.2rem);
+        border: #cdcdcd solid 1px;
+        border-radius: 3vw;
+        padding: 0.7vw 2vw;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #41a16e;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .container .contentWrapper {
+    .members {
+      padding: 1rem;
+      gap: 2vw 5vw;
+      justify-content: center;
+      max-height: 35vh;
+      overflow-y: auto;
+
+      .member {
+        text-align: center;
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+      }
+    }
+  }
+}

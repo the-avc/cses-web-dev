@@ -1,0 +1,436 @@
+[
+  {
+    "name": "CodeISM",
+    "imageUrl": "/logo/CodeISM.jpeg",
+    "link": "codeism",
+    "report": "",
+    "title": "The platform, ~the challenges~, and ~the Support~ you need to excel ~in competitive Programming~.",
+    "description": {
+      "short": "The coding club of IIT (ISM) Dhanbad, is your gateway to honing your programming skills and exploring the exciting world of coding; catering to students of all experience levels, from absolute beginners to seasoned coders.",
+      "long": "CodeISM is the official competitive programming club of IIT Dhanbad. It is a group of passionate programmers who love to solve problems and are always ready to learn and grow. We aim to provide a platform for students to learn and excel in competitive programming. We conduct regular sessions on various topics ranging from basic to advanced algorithms, data structures, and problem-solving techniques. We also participate in various online contests and organize contests for the students to practice and improve their skills. We believe that competitive programming is not just about solving problems but also about learning and growing together as a community."
+    },
+    "members": [
+      {
+        "name": "Prof. Ayan Das",
+        "imageUrl": "/prof/Ayan.jpeg",
+        "role": "Faculty-In-Charge",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Prof. Tanusree Kaibartta",
+        "imageUrl": "/prof/Tanusree.jpg",
+        "role": "Co-Faculty-In-Charge",
+        "designation": "Assistant Professor"
+      },
+      {
+        "name": "Pratham Todi",
+        "imageUrl": "/students/PrathamTodi.jpeg",
+        "role": "Coordinator",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Amber Khare",
+        "imageUrl": "/students/Amber.jpeg",
+        "role": "Coordinator",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Yushae Hasan Hashmi",
+        "imageUrl": "/students/Yushay.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ganesh Talwar",
+        "imageUrl": "/students/Ganesh.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Yash Sharma",
+        "imageUrl": "/students/Yash.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Pratyush Kumar Chaturvedi",
+        "imageUrl": "/students/Pratyush.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ayanak Misra",
+        "imageUrl": "/students/Ayanak.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Aadhya Jain",
+        "imageUrl": "/students/Aadhya.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Marmick Mathur",
+        "imageUrl": "/students/Marmick.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ozair Malakji",
+        "imageUrl": "/students/Ozair.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Kollakota Siva Sai",
+        "imageUrl": "/students/KollaKota.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ravi Raj",
+        "imageUrl": "/students/Raviraj.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Gaurav Kumar",
+        "imageUrl": "/students/Gaurav.jpeg",
+        "role": "Member",
+        "designation": "B.Tech"
+      }
+    ],
+    "previousData": {
+      "coordinators": [
+        {
+          "name": "Yash Barot",
+          "grad_year": 2024
+        },
+        {
+          "name": "Abhay Gupta",
+          "grad_year": 2025
+        }
+      ],
+      "members": [
+        {
+          "name": "Abhishek Kumar Jain",
+          "grad_year": 2023
+        },
+        {
+          "name": "Akash Mahapatra",
+          "grad_year": 2023
+        },
+        {
+          "name": "Alok Kumar",
+          "grad_year": 2023
+        },
+        {
+          "name": "Anand Kumar",
+          "grad_year": 2023
+        },
+        {
+          "name": "Hritik Raj",
+          "grad_year": 2023
+        },
+        {
+          "name": "Jay Sharma",
+          "grad_year": 2023
+        },
+        {
+          "name": "Mukul Kadyan",
+          "grad_year": 2023
+        },
+        {
+          "name": "Nikhil Kumar",
+          "grad_year": 2023
+        },
+        {
+          "name": "Pawan Raj",
+          "grad_year": 2023
+        },
+        {
+          "name": "Yash Daga",
+          "grad_year": 2023
+        },
+        {
+          "name": "Abhinav Adlakha",
+          "grad_year": 2024
+        },
+        {
+          "name": "Abhishek Tiwari",
+          "grad_year": 2024
+        },
+        {
+          "name": "Arti Yadav",
+          "grad_year": 2024
+        },
+        {
+          "name": "Aryan Bansal",
+          "grad_year": 2024
+        },
+        {
+          "name": "Avinesh Pratap Singh",
+          "grad_year": 2024
+        },
+        {
+          "name": "Bhavya Agrawal",
+          "grad_year": 2024
+        },
+        {
+          "name": "Brijesh Kumar",
+          "grad_year": 2024
+        },
+        {
+          "name": "Mayank Narang",
+          "grad_year": 2024
+        },
+        {
+          "name": "Milan Mundhra",
+          "grad_year": 2024
+        },
+        {
+          "name": "Rahul Agrawal",
+          "grad_year": 2024
+        },
+        {
+          "name": "Sankalp Sharma",
+          "grad_year": 2024
+        },
+        {
+          "name": "Shivam Shekhar",
+          "grad_year": 2024
+        },
+        {
+          "name": "Yash Barot",
+          "grad_year": 2024
+        },
+        {
+          "name": "Abhay Gupta",
+          "grad_year": 2025
+        },
+        {
+          "name": "Avani Jain",
+          "grad_year": 2025
+        },
+        {
+          "name": "Digvijay Anand",
+          "grad_year": 2025
+        },
+        {
+          "name": "Gaurav Prateek",
+          "grad_year": 2025
+        },
+        {
+          "name": "Mohit Gupta",
+          "grad_year": 2025
+        },
+        {
+          "name": "Piyush Kumar",
+          "grad_year": 2025
+        },
+        {
+          "name": "Pranjal Singh",
+          "grad_year": 2025
+        },
+        {
+          "name": "Samudra Mitra",
+          "grad_year": 2025
+        },
+        {
+          "name": "Srikant Agrawal",
+          "grad_year": 2025
+        },
+        {
+          "name": "Vibhanshu Sharma",
+          "grad_year": 2025
+        },
+        {
+          "name": "Vishal Shrivastava",
+          "grad_year": 2025
+        }
+      ]
+    },
+    "events": []
+  },
+  {
+    "name": "WebCSE",
+    "imageUrl": "/logo/webcse.jpeg",
+    "link": "webcse",
+    "report": "",
+    "title": "The platform, ~the challenges~, and ~the Support~ you need to excel ~in Web Development~.",
+    "description": {
+      "short": "The official web development club of IIT Dhanbad, WebCSE is your gateway to honing your web development skills and exploring the exciting world of web development; catering to students of all experience levels, from absolute beginners to seasoned developers.",
+      "long": "WebCSE is the official web development club of IIT Dhanbad. We aim to provide a platform for students to learn and excel in web development. We conduct regular sessions on various topics ranging from basic to advanced web development, and we also participate in various online contests and organize contests for the students to practice and improve their skills. We believe that web development is not just about creating websites but also about learning and growing together as a community."
+    },
+    "members": [
+      {
+        "name": "Prof. Dharavath Ramesh",
+        "imageUrl": "/prof/Dharavath.jpeg",
+        "role": "Faculty-In-Charge",
+        "designation": "Associate Professor"
+      },
+      {
+        "name": "Mr. Srikant Agarwal",
+        "imageUrl": "/students/Srikant.jpeg",
+        "role": "Coordinator",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Pratham Aggarwal",
+        "imageUrl": "/students/Pratham.jpeg",
+        "role": "Co-Coordinator",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ms. Aadhya Jain",
+        "imageUrl": "/students/Aadhya.jpeg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Karthik Mohan",
+        "imageUrl": "/students/Karthik.jpeg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Nikhil Kumar",
+        "imageUrl": "/students/Nikhil.jpeg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Rudraksh Joshi",
+        "imageUrl": "/students/Rudraksh.jpeg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      }
+    ],
+    "events": []
+  },
+  {
+    "name": "Udbhav",
+    "imageUrl": "/logo/Udbhav.jpeg",
+    "link": "udbhav",
+    "title": "Udbhav ~The Annual Day Celebration~",
+    "reportDUM": "/reports/Udbhav.pdf",
+    "report": [
+      {
+        "year": 2014,
+        "venue": "",
+        "url": "/reports/Udbhav/Report2014.pdf"
+      },
+      {
+        "year": 2015,
+        "venue": "",
+        "url": "/reports/Udbhav/Report2015.pdf"
+      },
+      {
+        "year": 2016,
+        "venue": "",
+        "url": "/reports/Udbhav/Report2016.pdf"
+      }
+    ],
+    "description": {
+      "short": "Udbhav is the annual day of the Department of Computer Science and Engineering at IIT(ISM) Dhanbad. It serves as a platform for students to showcase their talents, foster unity within the department, and connect with faculty and alumni. The event features lectures, competitions, cultural performances, and industry talks, along with non-academic activities like stand-up comedy and design contests.",
+      "long": "Udbhav is the annual day of the Department of Computer Science and Engineering at IIT(ISM) Dhanbad. It serves as a platform for students to showcase their talents, foster unity within the department, and connect with faculty and alumni. The event features lectures, competitions, cultural performances, and industry talks, along with non-academic activities like stand-up comedy and design contests."
+    },
+    "members": [
+      {
+        "name": "Mr. Aditya Baitha",
+        "imageUrl": "/students/Aditya.jpeg",
+        "role": "Coordinator UG",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Anil Kumar",
+        "imageUrl": "/students/Anil.jpeg",
+        "role": "Coordinator PG",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Shresth Gupta",
+        "imageUrl": "/students/Shresth.jpeg",
+        "role": "Co-Coordinator UG",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Mohd. Kamran Mehdi Rizwi",
+        "imageUrl": "/students/Kamran.jpeg",
+        "role": "Co-Coordinator PG",
+        "designation": "B.Tech"
+      }
+    ]
+  },
+  {
+    "name": "Confluence",
+    "imageUrl": "/logo/Confluence.jpeg",
+    "link": "confluence",
+    "title": "Confluence ~The Annual Meetup~",
+    "report": [
+      {
+        "year": 2014,
+        "venue": "Premier Inn Hotel, Whitefields, Bengaluru, India",
+        "url": "/reports/Confluence/Report2014.pdf"
+      },
+      {
+        "year": 2015,
+        "venue": "Officer’s Mess, Chief Engineer (Air Force), Palam, New Delhi",
+        "url": "/reports/Confluence/Report2015.pdf"
+      },
+      {
+        "year": 2016,
+        "venue": "7 Biryani’s Hotel, Kormangala, Bengaluru",
+        "url": "/reports/Confluence/Report2016.pdf"
+      },
+      {
+        "year": 2017,
+        "venue": "Octave Hotel, Sarjapur Road, Bangalore",
+        "url": "/reports/Confluence/Report2017.pdf"
+      }
+    ],
+    "description": {
+      "short": "Confluence is the annual alumni meet organized by the Computer Science and Engineering Society (CSES) at IIT(ISM) Dhanbad. It serves as a platform to strengthen the connection between alumni and current students, featuring discussions on career growth, skill development, and fostering interaction between alumni and the department.",
+      "long": "Confluence is the annual alumni meet organized by the Computer Science and Engineering Society (CSES) at IIT(ISM) Dhanbad. It serves as a platform to strengthen the connection between alumni and current students, featuring discussions on career growth, skill development, and fostering interaction between alumni and the department."
+    },
+    "members": []
+  },
+  {
+    "name": "SpeakUp",
+    "imageUrl": "/logo/SpeakUp.jpeg",
+    "link": "speakup",
+    "report": "",
+    "title": "SpeakUp the ~Speaking Skills~ and ~Personality Development~ Society",
+    "description": {
+      "short": "SpeakUp is the Speaking Skills and Personality Development Society at IIT(ISM) Dhanbad. It aims to help students improve their communication skills, public speaking, and personality development. The society conducts workshops, seminars, and competitions to help students overcome their fear of public speaking and develop their personality.",
+      "long": "SpeakUp is the Speaking Skills and Personality Development Society at IIT(ISM) Dhanbad. It aims to help students improve their communication skills, public speaking, and personality development. The society conducts workshops, seminars, and competitions to help students overcome their fear of public speaking and develop their personality."
+    },
+    "members": [
+      {
+        "name": "Ms. Kashish",
+        "imageUrl": "/students/Kashish.jpg",
+        "role": "Coordinator",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ms. Kriti Thawaria",
+        "imageUrl": "/students/Kriti.jpg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Ms. Eshita Paliwal",
+        "imageUrl": "/students/Eshita.jpg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      },
+      {
+        "name": "Mr. Spandan Kundu",
+        "imageUrl": "/students/Spandan.jpg",
+        "role": "Executive Member",
+        "designation": "B.Tech"
+      }
+    ]
+  }
+]

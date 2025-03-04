@@ -1,0 +1,61 @@
+.teamWrapper {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 400;
+  padding: 2vw 5vw;
+
+  .teamContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vw 0;
+
+    .teamHeader {
+      .subHeading {
+        margin: 0 0 0 8vw;
+        font-weight: 500;
+        font-size: 4vw;
+      }
+
+      .mainHeading {
+        font-size: 10vw;
+        font-weight: 500;
+        margin: 3.5vw 0 4vw 8vw;
+      }
+    }
+
+    .teamGrid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr); /* 4 columns by default */
+      gap: 3vw;
+      margin-top: 5vw;
+      color: #fafafa;
+      justify-content: space-around;
+
+      @media (max-width: 1024px) {
+        grid-template-columns: repeat(4, 1fr); /* 3 columns for large screens */
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .teamWrapper {
+    .teamContent {
+      .teamGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4vw;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}

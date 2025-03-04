@@ -1,0 +1,51 @@
+.right-section {
+  flex: 0;
+  min-width: 21rem;
+  margin-top: 1.4rem;
+
+  .user-profile {
+    background-color: var(--color-white);
+    border-radius: var(--card-border-radius);
+    border: 2px solid var(--boundary-color);
+
+    margin-top: 1rem;
+    padding: var(--card-padding);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: none;
+    }
+
+    img {
+      width: 11rem;
+      height: auto;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .right-section {
+    .user-profile {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right-section .nav .menu-btn {
+    display: block;
+    margin-left: 0.5rem;
+    margin-right: auto;
+  }
+}

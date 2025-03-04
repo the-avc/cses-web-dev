@@ -1,0 +1,166 @@
+.root {
+  position: relative;
+  min-height: 100vh;
+
+  a {
+    color: var(--color-dark);
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 1.6rem; /* Reduced the font size slightly */
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.3rem; /* Reduced the font size slightly */
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 0.8rem; /* Reduced the font size slightly */
+  }
+
+  .container {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 12rem auto 23rem;
+
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 1.8rem;
+
+      main .recent-orders form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      main {
+        flex: 1;
+        margin-top: 1.4rem;
+        overflow-y: auto; /* Added to make the main content scrollable */
+        max-height: calc(
+          100vh - 4rem
+        ); /* Ensures it doesn’t exceed viewport height */
+
+        .recent-orders {
+          margin-top: 1.3rem;
+
+          h2 {
+            margin-bottom: 0.8rem;
+          }
+
+          a {
+            text-align: center;
+            display: block;
+            margin: 1rem auto;
+            color: var(--color-primary);
+          }
+        }
+
+        .box {
+          background-color: var(--color-white);
+          padding: var(--card-padding);
+          border: 2px solid var(--boundary-color);
+          border-radius: var(--card-border-radius);
+          box-shadow: var(--box-shadow);
+          transition: all 0.3s ease;
+
+          &:hover {
+            box-shadow: none;
+          }
+        }
+      }
+
+      main table tbody td {
+        height: 2.8rem;
+        border-bottom: 1px solid var(--color-light);
+        color: var(--color-dark-variant);
+      }
+
+      main table tbody tr:last-child td {
+        border: none;
+      }
+
+      main .eventRow {
+        display: flex;
+        flex-direction: column;
+        min-height: 84vh;
+        background-color: var(--color-white);
+        padding: var(--card-padding);
+        border-radius: var(--card-border-radius);
+        margin-top: 1rem;
+        box-shadow: var(--box-shadow);
+        gap: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        width: 100%;
+        overflow-y: auto; /* Added for scrolling within this element */
+      }
+
+      main .eventHead {
+        max-height: 40vh;
+        padding: 15px;
+        border-top: 0.5px solid var(--color-dark-variant);
+        border-bottom: 0.5px solid var(--color-dark-variant);
+        border-radius: 5px;
+        overflow-y: auto; /* Ensures scrolling for longer content */
+        background-color: var(--color-background);
+        flex-basis: 40%;
+      }
+
+      main .eventItem {
+        background-color: var(--color-white);
+        margin-bottom: 10px;
+        padding: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: justify;
+        border-radius: 10px;
+      }
+
+      main .eventItem:hover {
+        background-color: var(--color-light);
+      }
+
+      main .eventItem span {
+        font-weight: 500;
+        border-bottom: 0.5px black solid;
+        margin-bottom: 10px;
+        font-size: 1rem;
+      }
+
+      main .eventItem p {
+        margin-top: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      main .eventItem:focus {
+        background-color: var(--color-light);
+      }
+    }
+  }
+
+  .footer {
+    position: absolute;
+    font-size: 0.9rem; /* Reduced font size for footer */
+    bottom: -4rem;
+    left: 1.2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .root .container .main-content {
+    flex-direction: column-reverse;
+    display: block;
+  }
+}

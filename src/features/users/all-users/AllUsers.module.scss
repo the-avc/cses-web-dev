@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2vw; /* Smaller title font size */
+  color: #4a90e2;
+  margin-bottom: 2%;
+}
+
+.searchBar {
+  margin-top: 2vw;
+  width: 100%;
+  padding: 1vw; /* Smaller padding */
+  margin-bottom: 3%;
+  font-size: 1.2vw; /* Smaller font size */
+  border: 1px solid #ccc;
+  border-radius: 0.8vw;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+
+  &:focus {
+    box-shadow: 0 0.3vw 0.6vw rgba(0, 0, 0, 0.1);
+  }
+}
+
+.userList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* Single element per row */
+  grid-gap: 2%; /* Gap between rows */
+}
+
+.userCard {
+  background-color: var(--color-white);
+  padding: 4%;
+  border-radius: 8px;
+  box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1%);
+  }
+
+  .username {
+    font-size: 1.1vw; /* Smaller font size */
+    margin-bottom: 0.3vw;
+  }
+
+  .userEmail {
+    font-size: 1vw; /* Smaller font size */
+    margin-bottom: 0.3vw;
+  }
+
+  .graduationYear {
+    font-size: 1vw; /* Smaller font size */
+    margin-bottom: 0.3vw;
+  }
+
+  .userType {
+    font-size: 1vw; /* Smaller font size */
+    color: #4a90e2;
+    margin-bottom: 0.5vw;
+  }
+
+  .active {
+    font-size: 1vw; /* Smaller font size */
+    color: green;
+    font-weight: bold;
+  }
+
+  .inactive {
+    font-size: 1vw; /* Smaller font size */
+    color: red;
+    font-weight: bold;
+  }
+}

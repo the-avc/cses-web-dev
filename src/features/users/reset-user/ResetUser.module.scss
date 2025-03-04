@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+
+  .headingContainer {
+    margin-top: 2.7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.3vw;
+  }
+
+  .form {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-self: flex-end;
+    justify-content: space-between;
+    padding-bottom: 0.5vw;
+    border-bottom: 2px solid var(--color-primary);
+    .fileInput {
+      color: var(--color-dark);
+      background: none;
+    }
+    .uploadButton {
+      background: none;
+      cursor: pointer;
+      &:disabled {
+        cursor: not-allowed;
+      }
+      .forwardArrow {
+        rotate: 180deg;
+        width: 1vw;
+      }
+    }
+  }
+
+  .message {
+    margin-top: 1vw;
+    color: red;
+    font-size: 1.2vw;
+  }
+}

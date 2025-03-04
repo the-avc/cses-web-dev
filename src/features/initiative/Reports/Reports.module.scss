@@ -1,0 +1,43 @@
+.allReport {
+    border-top: 1px solid var(--color-dark);
+    padding: 5vw 3vw 0 5vw;
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 4vw;
+    flex-wrap: wrap;
+
+    .reportWrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2vw;
+        width: 45%;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+            color: var(--color-white);
+
+            .header {
+                border-bottom: 1px dashed var(--color-primary);
+                padding-bottom: 0.2vw;
+                font-size: 1.7vw;
+            }
+
+            .venue {
+                font-size: 1.2vw !important;
+            }
+        }
+
+        .downloadButton {
+            align-self: flex-start;
+            color: var(--color-white);
+            background-color: var(--color-primary);
+            border: 1px solid var(--color-white);
+            padding: 0.6vw;
+            font-size: 1.4vw;
+            border-radius: 18px;
+        }
+    }
+}

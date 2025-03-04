@@ -1,0 +1,170 @@
+// .hidden {
+//   display: none;
+// }
+
+// .visible {
+//   display: block;
+// }
+
+// .sidebar {
+//   height: 100vh;
+//   min-width: 16rem;
+//   border: 2px solid var(--boundary-color);
+
+//   flex: 0;
+//   display: flex;
+//   flex-direction: column;
+//   background-color: var(--color-white);
+//   border-radius: 10px;
+
+//   .toggle {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     margin-top: 0.8rem;
+
+//     .logo {
+//       width: 100%;
+//       margin: 5px 40px;
+//       display: flex;
+//       align-items: flex-start;
+//       gap: 0.5rem;
+
+//       .danger {
+//         color: var(--color-danger);
+//       }
+
+//       img {
+//         height: 5rem;
+//       }
+//     }
+
+//     .close {
+//       padding-right: 1rem;
+//       display: none;
+
+//       img {
+//         height: 1.2rem;
+//         width: 1.2rem;
+//       }
+//     }
+//   }
+
+//   .sb-item {
+//     display: flex;
+//     align-items: center;
+//     color: var(--color-info-dark);
+//     height: 3.7rem;
+//     gap: 1rem;
+//     position: relative;
+//     margin-left: 2rem;
+//     transition: all 0.3s ease;
+
+//     h3 {
+//       font-weight: 500;
+//       font-size: 0.87rem;
+//     }
+
+//     &:last-child {
+//       flex: 1;
+//       align-items: flex-end;
+//       margin-bottom: 1rem;
+//     }
+//   }
+// }
+
+// .toggle .sidebar {
+//   display: flex;
+//   flex-direction: column;
+//   background-color: var(--color-white);
+//   box-shadow: var(--box-shadow);
+//   border-radius: 15px;
+//   height: 88vh;
+//   position: relative;
+//   top: 1.5rem;
+//   transition: all 0.3s ease;
+// }
+
+// .sidebar:hover {
+//   box-shadow: none;
+// }
+
+// .sidebar .sidebar .sb-item span {
+//   font-size: 1.6rem;
+//   transition: all 0.3s ease;
+// }
+
+// .sidebar .sb-item.active {
+//   width: 100%;
+//   color: var(--color-primary);
+//   background-color: var(--color-light);
+//   margin-left: 0;
+//   border-radius: 1rem;
+// }
+
+// .sidebar .sb-item.active::before {
+//   content: '';
+//   width: 6px;
+//   height: 18px;
+//   background-color: var(--color-primary);
+// }
+
+// .sidebar .sb-item.active span {
+//   color: var(--color-primary);
+//   margin-left: calc(1rem - 3px);
+// }
+
+// .sidebar .sb-item:hover {
+//   color: var(--color-primary);
+// }
+
+// .sidebar .sb-item:hover span {
+//   margin-left: 0.6rem;
+// }
+
+// .sidebar .message-count {
+//   background-color: var(--color-danger);
+//   padding: 2px 6px;
+//   color: var(--color-white);
+//   font-size: 11px;
+//   border-radius: var(--border-radius-1);
+// }
+
+// @media screen and (max-width: 768px) {
+//   .sidebar .toggle .close {
+//     display: block;
+//   }
+
+//   @keyframes showMenu {
+//     to {
+//       left: 0;
+//     }
+//   }
+
+//   aside .logo {
+//     margin-left: 1rem;
+
+//     h2 {
+//       display: inline;
+//     }
+//   }
+
+//   aside .sidebar h3 {
+//     display: inline;
+//   }
+
+//   aside .sidebar a {
+//     width: 100%;
+//     height: 3.4rem;
+//   }
+
+//   aside .sidebar a:last-child {
+//     position: absolute;
+//     bottom: 5rem;
+//   }
+
+//   aside .toggle .close {
+//     display: inline-block;
+//     cursor: pointer;
+//   }
+// }

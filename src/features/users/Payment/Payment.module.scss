@@ -1,0 +1,51 @@
+.paymentContainer {
+  width: 100%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  .headingContainer {
+    margin-top: 2.7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.3vw;
+
+    .paymentQR {
+      border: 2px solid var(--color-primary);
+      border-radius: 1.3vw;
+      padding: 0.8vw;
+      width: 15vw;
+      height: auto;
+      margin-right: 1vw;
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5vw;
+      .paymentQR {
+        width: 40%;
+        margin-right: 0;
+      }
+    }
+  }
+
+  .formLink {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 70%;
+    padding-bottom: 0.7vw;
+    border-bottom: 2px solid var(--color-primary);
+    color: #ffffff;
+    opacity: 0.5;
+
+    
+    .forwardArrow {
+      rotate: 180deg;
+      width: 1vw;
+    }
+  }
+}

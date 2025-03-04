@@ -1,0 +1,127 @@
+.footerSP {
+    width: 100vw;
+    // height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    bottom: 0px;
+
+    background-color: var(--color-background);
+
+    .footerContents {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        box-sizing: border-box;
+
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        svg {
+            margin-right: 5vw;
+
+            g {
+                fill: var(--color-dark)
+            }
+        }
+
+        .footerDetails {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 50vw;
+            margin-left: 10vw;
+            height: 300px;
+
+            .contactUs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items:flex-start;
+                justify-content: start;
+                gap: 1rem;
+                // width: 40vw;
+
+                // margin-top: 40px;
+                .mail {
+                    text-decoration: underline 1px var(--color-dark);
+
+                    .mailSvg {
+                        padding: 0;
+                        margin: 0 5px;
+                        fill: var(--color-dark);
+                        transform: translate(0px, 5px);
+                    }
+                }
+
+                p svg {
+                    padding: 0;
+                    margin: 0 5px;
+                    fill: var(--color-dark);
+                    // fill: #f23;
+                    transform: translate(0px, 5px);
+                }
+
+                .location {
+                    display: flex;
+                    align-items: start;
+
+                    svg path {
+                        fill: var(--color-dark);
+                    }
+
+                    span {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+
+    }
+    .userFns{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+    .logout, .changePass {
+        cursor: pointer;
+        text-align: center;
+        font-family: inter;
+        font-weight: 500;
+        font-size: 23px;
+        height: fit-content;
+        width: fit-content;
+        padding: 10px;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid;
+        border-radius: 100px;
+    }
+    .logout:hover, .changePass:hover{
+        font-weight: bolder;
+        scale: 1.02;
+    }
+
+    .footCopyright {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footerSP .footerContents {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

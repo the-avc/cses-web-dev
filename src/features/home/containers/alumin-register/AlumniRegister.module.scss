@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8vh 3vw 8.1vh 2vw;
+
+  .backgroundImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    filter: brightness(0.9);
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .contentWrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    .register {
+      color: #fff;
+      margin: 0 0 0 0;
+      // letter-spacing: -0.1vw; // Scales with viewport width
+
+      align-self: flex-start;
+      h1 {
+        font:
+          400 5vw Inter,
+          -apple-system,
+          Roboto,
+          Helvetica,
+          sans-serif;
+      }
+      p {
+        text-align: right;
+        font:
+          400 2vw Inter,
+          -apple-system,
+          Roboto,
+          Helvetica,
+          sans-serif;
+        color:rgb(236, 235, 235);
+      }
+    }
+
+    .formWrapper {
+      user-select: none;
+      display: flex;
+      flex-direction: column;
+      padding: 3vw 0 2vw 0;
+      margin-top: 8vw;
+
+      .form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1vw;
+
+        .registerButton {
+          width: auto;
+          align-self: center;
+          padding: 0.8rem 2rem;
+          font-size: 1rem;
+          border-radius: 2rem;
+          border: #fff;
+          
+        }
+
+        .disclaimer {
+          color: rgba(255, 255, 255, 0.652);
+          font-size: 1vw;
+          padding-top: 1vw;
+        }
+
+        
+
+        
+        input[type="date"] {
+          color: rgba(255, 255, 255, 0.517);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 2rem 1rem 0;
+
+    .contentWrapper {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .register {
+        
+        h1 {
+          font-size: 6vw;
+        }
+        p {
+          font-size: 3vw;
+        }
+      }
+
+      .formWrapper {
+        margin-top: 0;
+        width: 70%;
+
+        .disclaimer {
+          font-size: 0.8rem;
+        }
+
+        .form .registerButton {
+          padding: 0.2rem 1.5rem;
+          font-size: 0.8rem;
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+}

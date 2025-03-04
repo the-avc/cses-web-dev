@@ -1,0 +1,36 @@
+.error-page {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   text-align: center;
+   color: var(--color-danger);
+}
+
+.error-page h1 {
+   font-size: 2.5rem;
+   margin-bottom: 1rem;
+}
+
+.error-page p {
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+}
+
+.btn {
+   border: 2px dashed var(--color-primary);
+   padding: 10px;
+   border-radius: 5px;
+   background-color: var(--input-background);
+   color: var(--color-primary);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+   &:hover {
+      background-color: var(--color-primary);
+      color: white;
+   }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CSE Society",
+  "imageUrl": "/assets/logos/CodeISM.jpeg",
+  "link": "codeism",
+  "title": "The platform, ~the challenges~, and ~the Support~ you need to excel ~in competitive Programming~.",
+  "description": {
+    "short": "The coding club of IIT (ISM) Dhanbad, is your gateway to honing your programming skills and exploring the exciting world of coding; catering to students of all experience levels, from absolute beginners to seasoned coders.",
+    "long": "CodeISM is the official competitive programming club of IIT Dhanbad. It is a group of passionate programmers who love to solve problems and are always ready to learn and grow. We aim to provide a platform for students to learn and excel in competitive programming. We conduct regular sessions on various topics ranging from basic to advanced algorithms, data structures, and problem-solving techniques. We also participate in various online contests and organize contests for the students to practice and improve their skills. We believe that competitive programming is not just about solving problems but also about learning and growing together as a community."
+  },
+  "members": [
+    {
+      "imageUrl": "/prof/Chiranjeev.png",
+      "role": "President",
+      "name": "Prof. Chiranjeev Kumar",
+      "designation": "HOD/CSE"
+    },
+    {
+      "imageUrl": "/students/Shubham.jpeg",
+      "role": "Vice-President",
+      "name": "Mr. Shubham Varshney",
+      "designation": "M.Tech"
+    },
+    {
+      "imageUrl": "/prof/Dharavath.jpeg",
+      "role": "Faculty-In-Charge",
+      "name": "Prof. Dharavath Ramesh",
+      "designation": "Associate Professor"
+    },
+    {
+      "imageUrl": "/prof/Pranay.png",
+      "role": "Treasurer",
+      "name": "Prof. Pranay Kumar Saha",
+      "designation": "Assistant Professor"
+    },
+    {
+      "imageUrl": "/students/Spandan.jpg",
+      "role": "Secretary",
+      "name": "Mr. Spandan Kundu",
+      "designation": "B.Tech"
+    },
+    {
+      "imageUrl": "/students/RamKrishna.jpeg",
+      "role": "Joint Secretary",
+      "name": "Mr. Ram Krishna",
+      "designation": "B.Tech"
+    }
+  ],
+  "previousData": {
+    "coordinators": [],
+    "members": []
+  },
+  "events": []
+}

@@ -1,0 +1,14 @@
+.QRsvg{
+    // max-width: 400px;
+    max-width: 227px;
+    max-height: fit-content;
+    // transform: translate(15%);
+    // padding: 16px 0px 0px 0px;
+    // border: 2px solid #FF1232;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    g{
+        fill:var(--color-dark);
+        scale: 1.5;
+    }
+}

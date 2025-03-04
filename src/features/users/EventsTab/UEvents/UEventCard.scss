@@ -1,0 +1,61 @@
+.UEventCard{
+    scroll-snap-align: center;
+    width: 564px;
+    height: 210px;
+    max-width: 75vw;
+    margin: 0 10px;
+    overflow: hidden;
+    flex-basis: 564px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 20px;
+    background: #F1606033;
+    border: 2px solid var(--color-dark);
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .head {
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: -0.20000000298023224px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+
+        .organizer {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: -0.20000000298023224px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+        }
+    }
+    .Details {
+        padding-bottom: 0px;
+        margin-bottom: -20px;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        .value {
+            font-weight: 400;
+        }
+    }
+}

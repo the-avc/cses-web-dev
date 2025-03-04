@@ -1,0 +1,92 @@
+.contentWrapper {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  padding: 1vh 0;
+  border-bottom: 0.14vw solid rgb(218, 235, 250);
+  cursor: grab;
+
+  .scrollContainer {
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 0.5s ease-in-out; // Smooth transition for scrolling
+  }
+
+  .scrollItem {
+    list-style: none;
+    padding: 2vh 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+    font-size: clamp(0.5rem, 0.35rem + 0.75vw, 0.8rem);
+    font-weight: 300;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    color: rgb(218, 235, 250);
+
+    &.active {
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      transform: scale(1.05);
+    }
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .separator {
+    width: 0.2vw;
+    height: 7vh;
+    color: white;
+    margin: 0 1vw;
+    position: relative;
+    top: 50%;
+    transform: translateY(-10%);
+  }
+}
+
+@media (max-width: 640px) {
+  .contentWrapper .scrollItem {
+    font-size: 1rem;
+  }
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 3vw;
+  padding-top: 1vw;
+}
+
+.tab-item.active {
+  font-weight: 400;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-radius: 0;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.tab-item {
+  text-align: center;
+  font-size: 1.7vw;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 200;
+  border-radius: 3vw;
+  padding: 0.5vw 1.3vw;
+  transition: background-color 0.3s ease, transform 0.3s ease; // Smooth background and scale transition
+
+  &:hover {
+    background-color: #385f36;
+    transform: scale(1.05); // Scale up on hover for emphasis
+  }
+}
+
+@media (max-width: 640px) {
+  .tab-item {
+    font-size: 0.9rem;
+  }
+}

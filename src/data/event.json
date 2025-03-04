@@ -1,0 +1,43 @@
+{
+  "title": "Codessey 1.0",
+  "prize": "₹20,000",
+  "description": "Codessey online coding contest that will test your problem-solving skills and coding abilities. The contest will be held on Codeforces and the problems will be based on algorithms and data structures. The top performers will be awarded exciting prizes.",
+  "date": "29th September 2024",
+  "rules": [
+    "The contest will be held on Codeforces.",
+    "The participants are allowed to participate in higher division"
+  ],
+  "rulebook": "https://drive.google.com/file/d/1DIveuB1Ko6excJ9tNx-uuhqejOKOzsl9/view?usp=drivesdk",
+  "contact": [
+    {
+      "name": "Pratham Todi",
+      "contact": "7979972189"
+    },
+    {
+      "name": "Ram Krishna",
+      "contact": "7979972189"
+    }
+  ]
+}
+
+{
+        "title": "The Recruitathon",
+        "prize": "₹6,000",
+        "description": "The Recruitathon is the inaugural recruitment event organized by WebCSE under the CSE Society, CSE Department. This event aims to identify and recruit talented individuals who have a passion for web development.",
+        "date": "1st November 2024",
+        "rules": [
+          "The event is open to all CSE students of IIT(ISM) Dhanbad.",
+          "Participants must register for the event by filling out the registration form."
+        ],
+        "rulebook": " https://tinyurl.com/3wjh9xun",
+        "contact": [
+          {
+            "name": "Srikant Agrawal",
+            "contact": "8540083559"
+          },
+          {
+            "name": "Pratham Aggarwal",
+            "contact": "9922223270"
+          }
+        ]
+      }

@@ -1,0 +1,57 @@
+.inputWrapper {
+  display: flex;
+  width: 40vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: #fff solid 0.1vw;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+
+  .input {
+    border: none;
+    display: flex;
+    background: none;
+    min-height: 0.7vh;
+    width: 100%;
+    color: white;
+
+    font: {
+      weight: 300;
+      size: 1.4vw;
+      family: Inter, sans-serif;
+    }
+    padding: 0.9vh 0;
+
+    &:focus,
+    &:active {
+      outline: none;
+      border: none;
+    }
+
+    &::-webkit-calendar-picker-indicator {
+      filter: invert(1);
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 0.1vw;
+    height: 0.1vh;
+    padding: 0;
+    margin: -0.1vw;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .inputWrapper {
+    width: 100%;
+    .input {
+      font-size: 1rem;
+    }
+  }
+}

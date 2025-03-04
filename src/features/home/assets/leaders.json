@@ -1,0 +1,494 @@
+[
+  {
+    "name": "Lifetime Members",
+    "yearly": false,
+    "data": {
+      "2006": [
+        { "name": "Mr. Amrit Kumar" },
+        { "name": "Mr. Dilip Kumar" },
+        { "name": "Mr. Sandeep Kumar" },
+        { "name": "Mr. Sumit Gupta" }
+      ],
+      "2007": [{ "name": "Mr. Jitendra Mohanty" }],
+      "2008": [
+        { "name": "Mr. Dhirendra Kumar Singh" },
+        { "name": "Mr. Mayank Vats" },
+        { "name": "Mr. Rajeev Kumar" },
+        { "name": "Mr. Sanjeev Kumar Dangi" }
+      ],
+      "2009": [
+        { "name": "Mr. Sital Prasad Kedia" },
+        { "name": "Ms. Shruti Sinha" }
+      ],
+      "2010": [
+        { "name": "Mr. Shailendra Shashtri" },
+        { "name": "Mr. Vijit Prabhu" }
+      ],
+      "2011": [
+        { "name": "Mr. Devender Mishra" },
+        { "name": "Mr. Mridul Malpani" },
+        { "name": "Mr. Shivang Seth" },
+        { "name": "Mr. Sunny Raj" }
+      ],
+      "2014": [
+        { "name": "Mr. Prakhar Rastogi" },
+        { "name": "Mr. Vishesh Srivastava" }
+      ],
+      "2016": [{ "name": "Mr. Ashay Sinha" }, { "name": "Mr. Prayank Mathur" }]
+    }
+  },
+  {
+    "name": "Annual Members",
+    "yearly": true,
+    "data": {
+      "2014-15": [
+        {
+          "name": "Mr. Dilip Kumar",
+          "grad_year": 2006
+        },
+        {
+          "name": "Mr. Anurag Anand",
+          "grad_year": 2007
+        },
+        {
+          "name": "Mr. Pawan Kumar Singhal",
+          "grad_year": 2007
+        },
+        {
+          "name": "Mr. Abhishek Seth",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Bhanu Pratap Singh",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Mohit Ranjan",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Rajeev Kumar",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Azad Naik",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Napender Singh",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Sagar Arora",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Shobhit Srivastava",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Sital Kedia",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Vijit Prabhu",
+          "grad_year": 2010
+        },
+        {
+          "name": "Mr. Aikansh Garg",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Amit Gaurav",
+          "grad_year": 2011
+        },
+        {
+          "name": "Ms. Anshuma Shukla",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Sourav Sharma",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Abhishek Singh",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Ashwin Datt",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Parvez Ahmed",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Piyush Banginwar",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Prateek Saini",
+          "grad_year": 2012
+        },
+        {
+          "name": "Ms. Tejomai Kandru",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Ashish Agarwal",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Mayank Saxena",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Nitesh Nawlani",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Rajat Mahajan",
+          "grad_year": 2013
+        },
+        {
+          "name": "Ms. Rupal Jain",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Shubham Jain",
+          "grad_year": 2013
+        }
+      ],
+      "2015-16": [
+        {
+          "name": "Mr. Anuj Agarwal",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Rajeev Kumar",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Azad Naik",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Napender Singh",
+          "grad_year": 2009
+        },
+        {
+          "name": "Ms. Shruti Sinha",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Sunil Kumar",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Kumar Atul",
+          "grad_year": 2010
+        },
+        {
+          "name": "Mr. Pankaj Thakur",
+          "grad_year": 2010
+        },
+        {
+          "name": "Mr. Purushottam Kumar",
+          "grad_year": 2010
+        },
+        {
+          "name": "Mr. Amit Gaurav",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Loveneet Nigam",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Piyush Goyal",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Amit Hooda",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Saurabh Khanduja",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Ashish Agarwal",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Mayank Saxena",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Narhari Bharath Kumar",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Shubham Jain",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Ashish Ranjan",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Law Kumar",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Saurabh Prasad",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Sumit Awasthi",
+          "grad_year": 2015
+        }
+      ],
+      "2016-17": [
+        {
+          "name": "Mr. Manish Choudhary",
+          "grad_year": 2008
+        },
+        {
+          "name": "Mr. Ankur Garg",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Avinash Kumar Dwivedi",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Azad Naik",
+          "grad_year": 2009
+        },
+        {
+          "name": "Ms. Kiranmayi Kamalay",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Napender Singh",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Rajan Yadav",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Shobhit Srivastava",
+          "grad_year": 2009
+        },
+        {
+          "name": "Mr. Mahesh Kumar",
+          "grad_year": 2010
+        },
+        {
+          "name": "Mr. Arunava Chakravarty",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Amit Gaurav",
+          "grad_year": 2011
+        },
+        {
+          "name": "Mr. Saurabh Khanduja",
+          "grad_year": 2012
+        },
+        {
+          "name": "Mr. Ashish Agarwal",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Mayank Saxena",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Nitesh Nawlani",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Prabhakar Shah",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Prakhar Gahlot",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Rahul Bhansali",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Shakti Singh",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Shekhar Sharma",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Shubham Jain",
+          "grad_year": 2013
+        },
+        {
+          "name": "Mr. Ashish Ranjan",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Deepak Gupta",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Kartikey Kumar Singh",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Sakshi Gopal",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Snehil",
+          "grad_year": 2014
+        },
+        {
+          "name": "Mr. Anish Somani",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Anjaney Pandey",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Ashish Kumar Bahukhandi",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Ashwani Chandil",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Deep Kumar Sakre",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Hind K. Geel",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Hitesh Sharma",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Jayant Tiwari",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Mohit Punjabi",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Nikhil Dubey",
+          "grad_year": 2015
+        },
+        {
+          "name": "Ms. Nishtha Gupta",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Rohit Kumar",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Saurav Kothari",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Shashank Kumar Tiwary",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Tushar Turkar",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Umang Popli",
+          "grad_year": 2015
+        },
+        {
+          "name": "Mr. Abhinav Goyal",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Anant Kumar",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Gajera Vatsal Jamanbhai",
+          "grad_year": 2016
+        },
+        {
+          "name": "Ms. Gayam Prathyusha",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Jitesh Karamchandani",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Mohit Chawla",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Nikhil Kumar Mittal",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Nishant Raj",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Rana Amrit Parth",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Rishabh Kumar",
+          "grad_year": 2016
+        },
+        {
+          "name": "Mr. Surender Singh",
+          "grad_year": 2016
+        }
+      ],
+      "2017-18": [
+        {
+          "name": "Mr. Lokendra Saini",
+          "grad_year": 2016
+        }
+      ],
+      "2024-25": [
+        {
+          "name": "Mr. Sujeet Maurya",
+          "grad_year": 2024
+        }
+      ]
+    }
+  },
+  {
+    "name": "Previous Secretaries",
+    "yearly": false,
+    "data": {
+      "2013": [{ "name": "Mr. Piyush Kumar Jain" }],
+      "2014": [{ "name": "Mr. Yogendra Singh" }],
+      "2015": [{ "name": "Mr. Rishabh Kumar" }],
+      "2016": [{ "name": "Ms. Ashya Sinha" }],
+      "2017": [{ "name": "Mr. Maheshwara Reddy C" }],
+      "2018": [{ "name": "Mr. Ayush Khandelwal" }],
+      "2019": [{ "name": "Mr. PVS Aditya Kaushik" }],
+      "2020": [{ "name": "Mr. Mohit Tripathi" }]
+    }
+  }
+]

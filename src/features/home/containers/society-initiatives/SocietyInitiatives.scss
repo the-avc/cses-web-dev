@@ -1,0 +1,36 @@
+.clubs-section {
+  margin: 1vw 16px 1vw 5vw;
+  
+  @media (max-width: 768px) {
+    padding: 0 15px;
+  }
+
+  @media (max-width: 640px) {
+    margin: 0 4px 1vw 5vw;
+    padding: 0;
+  }
+}
+
+.clubs-container {
+  min-width: 240px;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding-top: 100px;
+  }
+
+  @media (max-width: 640px) {
+    padding-top: 80px;
+  }
+
+  .club-sections {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+}

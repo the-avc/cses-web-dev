@@ -1,0 +1,174 @@
+.footer {
+  color: #fff;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  border-top: rgb(255, 255, 255, 0.5) 1px solid;
+}
+
+.container {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 60%;
+  width: auto;
+}
+
+.info {
+  text-align: left;
+  max-width: 500px;
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.info p {
+  margin: 0;
+  line-height: 1.2;
+  max-width: 70vw;
+}
+
+.info p:first-of-type {
+  margin-bottom: 8px;
+  font-weight: 800;
+}
+
+.info p:nth-of-type(2) {
+  margin-bottom: 0.5rem;
+}
+
+.contact {
+  margin-top: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-left {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-right {
+  text-align: left;
+}
+
+.location {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  line-height: 1.1;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.divider {
+  width: 50%;
+  height: 1px;
+  background-color: #5b5b5b;
+  margin: 10px 0;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #5b5b5b;
+}
+
+.email {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.email:hover {
+  color: #5b5b5b;
+}
+
+.contact-left p,
+.contact-right p {
+  font-size: 14px;
+}
+
+.location span {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left,
+  .right {
+    justify-content: center;
+  }
+
+  .logo {
+    height: 120px;
+  }
+
+  .info {
+    text-align: center;
+    max-width: none;
+    align-items: center;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-left,
+  .contact-right {
+    text-align: center;
+  }
+
+  .divider {
+    width: 75%;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    gap: 0.5rem;
+  }
+
+  .logo {
+    height: 5rem;
+  }
+}

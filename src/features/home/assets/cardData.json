@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Mission and Purpose",
+    "description": "Bridge the gap between academics and industry\nFoster a vibrant community\nEmpower future leaders in the field of Computer Science",
+    "imageSrc": "/blue-green.png",
+    "isDarkText": false
+  },
+  {
+    "title": "Benefits of Joining",
+    "description": "Access to workshops and seminars\nParticipation in hackathons and coding competitions\nLeadership and networking opportunities\nResource Hub",
+    "imageSrc": "/pink-white.png",
+    "isDarkText": true
+  }
+]

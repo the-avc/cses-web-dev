@@ -1,0 +1,150 @@
+$color-dark: #333; // Example color value
+$color-background: #fff; // Example color value
+$box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+$border-radius: 7px;
+$padding: 20px 30px;
+$width: 400px;
+$background-image: url('/logo/cse_dept.jpeg');
+
+.login {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+  width: 100%;
+
+  .login-left {
+    width: calc(100vw - #{$width});
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .login-right {
+    background-color: var(--color-background);
+    border-radius: $border-radius;
+    border: 2px solid var(--boundary-color);
+
+    flex: 1;
+    padding: $padding;
+    box-shadow: $box-shadow;
+    display: flex;
+    flex-direction: column;
+
+    .description {
+      font-size: 2rem;
+      font-weight: 800;
+      margin: 2rem 0;
+      text-decoration: wavy;
+      text-shadow: #fff;
+      text-transform: uppercase;
+      // text-align: center;
+    }
+
+    .dark-btn {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        margin-top: 0.2rem;
+        width: 1.6rem;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .login {
+    .login-left {
+      display: none;
+    }
+  }
+}
+
+input,
+select {
+  font-weight: 200;
+  font-size: smaller;
+}
+
+.auth-links {
+  text-align: center;
+  margin-top: 1rem;
+
+  a {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+}
+
+.username-label {
+  display: flex;
+  align-items: center;
+
+  .info-icon {
+    margin-left: 8px;
+    cursor: pointer;
+    position: relative;
+
+    &:hover .tooltip {
+      display: block; // Show the tooltip on hover
+    }
+
+    .tooltip {
+      display: none; // Hide the tooltip by default
+      position: absolute;
+      background-color: var(--color-background);
+      border: 1px solid #ccc;
+      padding: 8px; // Increase padding for better appearance
+      border-radius: 4px;
+      top: 20px; // Adjust position as needed
+      left: 0;
+      white-space: normal; // Allow text wrapping
+      z-index: 1;
+      width: 250px; // Set a width to increase the tooltip size
+      font-size: 0.8em; // Lower the font size
+    }
+  }
+}
+
+.form-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background-color: var(--input-background);
+    color: var(--input-text-color);
+  }
+}
+
+input[type='submit'] {
+  border: 2px dashed var(--color-primary);
+  padding: 8px;
+  border-radius: 5px;
+  background-color: var(--input-background);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: white;
+  }
+}

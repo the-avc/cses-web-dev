@@ -11,11 +11,15 @@
   background-color: rgb(39, 39, 39);
   gap: 1vw;
   text-align: left;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px,
       rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px,
       rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+      transform: translateY(-5px);
   }
 
   .member-image {
@@ -23,6 +27,10 @@
     height: 15vw;
     object-fit: cover;
     object-position: center;
+    transition: transform 0.5s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   .member-content {

@@ -2,9 +2,9 @@ import React from "react"
 import "./TeamMember.scss"
 
 const TeamMember = (props) => {
-  const { name, imageUrl, role, designation } = props
+  const { name, imageUrl, role, designation, onClick } = props
   return (
-    <div className='member-card'>
+    <div className='member-card' onClick={onClick}>
       <img
         src={imageUrl}
         alt={`${name} - ${role}`}

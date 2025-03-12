@@ -69,50 +69,59 @@ The following scripts are available in `package.json`:
 ## Contribution Guidelines
 We welcome contributions from developers of all skill levels! Follow these steps to contribute directly to the main branch:
 
+## Contribution Guidelines
+We welcome contributions from developers of all skill levels! Follow these steps to contribute:
+
 ### How to Contribute
 1. **Fork the Repository:**
    - Click the "Fork" button at the top right of the repository page.
    - This will create a copy of the project under your GitHub account.
 
-2. **Clone the Repository:**
+2. **Clone the Forked Repository:**
    - Open a terminal and run:
      ```sh
      git clone https://github.com/yourusername/cses-web-dev.git
      cd cses-web-dev
      ```
 
-3. **Make Your Changes:**
+3. **Create a New Branch:**
+   - Branch names should be descriptive of the changes you plan to make.
+     ```sh
+     git checkout -b feature/your-feature-name
+     ```
+
+4. **Make Your Changes:**
    - Modify the code, fix bugs, or add new features.
    - Ensure your code follows the project’s coding standards.
 
-4. **Commit Your Changes:**
+5. **Commit Your Changes:**
    - Write a meaningful commit message explaining what you changed.
      ```sh
      git add .
      git commit -m "Added new feature XYZ"
      ```
 
-5. **Push Your Changes:**
-   - Send your updates directly to the main branch.
+6. **Push Your Changes:**
+   - Send your updates to your forked repository.
      ```sh
-     git push origin main
+     git push origin feature/your-feature-name
      ```
 
-6. **Create a Pull Request:**
-   - Go to the GitHub repository.
-   - Click on the "Contribute" button, then select "Open Pull Request".
+7. **Create a Pull Request (PR):**
+   - Go to the original repository on GitHub.
+   - Click "New Pull Request" and select your branch.
    - Provide a clear description of your changes.
-   - Click "Create Pull Request".
 
-7. **Wait for Review:**
+8. **Wait for Review:**
    - Project maintainers will review your PR and may request modifications.
    - Once approved, your changes will be merged into the main branch!
 
 ### Guidelines for Contributors
 - Keep your code clean and well-documented.
 - Follow the existing coding style and structure.
-- Test your changes before pushing to avoid breaking functionality.
+- Test your changes before submitting a PR.
 - Be respectful and open to feedback from reviewers.
+
 
 <!-- ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. -->

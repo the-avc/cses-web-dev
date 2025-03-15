@@ -28,6 +28,7 @@
     object-fit: cover;
     object-position: center;
     transition: transform 0.5s ease-in-out;
+    border-radius: 1vw;
     &:hover {
       transform: scale(1.05);
     }

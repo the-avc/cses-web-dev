@@ -8,12 +8,12 @@ import axiosInstance from '@/api/axiosInstance.js'
 import './Home.scss'
 import useAuth from '@/hooks/useAuth.js'
 
-import FooterSP from './footerSP/footerSP.jsx'
+import FooterSP from './footerSP/FooterSP.jsx'
 import Navbar from './Navbar/Navbar.jsx'
 import HomeTab from './HomeTab/homeTab.jsx'
 import PaymentTab from './PaymentTab/paymentTab.jsx'
 import EventsTab from './EventsTab/EventsTab.jsx'
-import StudentPortal from '@/pages/Student-portal-page/StudentPortal.jsx'
+import StudentPortal from '@/pages/Student-portal-page/studentPortal.jsx'
 import ChangePassword from './change-password/ChangePassword.jsx'
 
 const Home = () => {

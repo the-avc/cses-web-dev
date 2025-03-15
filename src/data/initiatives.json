@@ -9,6 +9,7 @@
       "short": "The coding club of IIT (ISM) Dhanbad, is your gateway to honing your programming skills and exploring the exciting world of coding; catering to students of all experience levels, from absolute beginners to seasoned coders.",
       "long": "CodeISM is the official competitive programming club of IIT Dhanbad. It is a group of passionate programmers who love to solve problems and are always ready to learn and grow. We aim to provide a platform for students to learn and excel in competitive programming. We conduct regular sessions on various topics ranging from basic to advanced algorithms, data structures, and problem-solving techniques. We also participate in various online contests and organize contests for the students to practice and improve their skills. We believe that competitive programming is not just about solving problems but also about learning and growing together as a community."
     },
+    "isEvent": false,
     "members": [
       {
         "name": "Prof. Ayan Das",
@@ -263,6 +264,7 @@
       "short": "The official web development club of IIT Dhanbad, WebCSE is your gateway to honing your web development skills and exploring the exciting world of web development; catering to students of all experience levels, from absolute beginners to seasoned developers.",
       "long": "WebCSE is the official web development club of IIT Dhanbad. We aim to provide a platform for students to learn and excel in web development. We conduct regular sessions on various topics ranging from basic to advanced web development, and we also participate in various online contests and organize contests for the students to practice and improve their skills. We believe that web development is not just about creating websites but also about learning and growing together as a community."
     },
+    "isEvent": false,
     "members": [
       {
         "name": "Prof. Dharavath Ramesh",
@@ -315,6 +317,7 @@
     "link": "udbhav",
     "title": "Udbhav ~The Annual Day Celebration~",
     "reportDUM": "/reports/Udbhav.pdf",
+    "isEvent": true,
     "report": [
       {
         "year": 2014,
@@ -368,6 +371,7 @@
     "imageUrl": "/logo/Confluence.jpeg",
     "link": "confluence",
     "title": "Confluence ~The Annual Meetup~",
+    "isEvent": true,
     "report": [
       {
         "year": 2014,
@@ -406,6 +410,7 @@
       "short": "SpeakUp is the Speaking Skills and Personality Development Society at IIT(ISM) Dhanbad. It aims to help students improve their communication skills, public speaking, and personality development. The society conducts workshops, seminars, and competitions to help students overcome their fear of public speaking and develop their personality.",
       "long": "SpeakUp is the Speaking Skills and Personality Development Society at IIT(ISM) Dhanbad. It aims to help students improve their communication skills, public speaking, and personality development. The society conducts workshops, seminars, and competitions to help students overcome their fear of public speaking and develop their personality."
     },
+    "isEvent": false,
     "members": [
       {
         "name": "Ms. Kashish",

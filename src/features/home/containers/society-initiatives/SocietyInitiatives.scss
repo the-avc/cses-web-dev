@@ -11,6 +11,59 @@
   }
 }
 
+.tab-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.tab-buttons button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.tab-buttons button::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.tab-buttons button:hover {
+  color: #ffcc80;
+}
+
+.tab-buttons button:hover::after {
+  width: 100%;
+  background: rgba(255, 204, 128, 0.7);
+}
+
+.tab-buttons button.active {
+  font-weight: bold;
+  color: #fff;
+}
+
+.tab-buttons button.active::after {
+  width: 100%;
+  background: #ffa726;
+  box-shadow: 0 4px 15px rgba(255, 167, 38, 0.8);
+}
+
 .clubs-container {
   min-width: 240px;
   width: 100%;

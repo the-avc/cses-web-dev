@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+// SCSS Variables
+$bg-color-dark: #000000;
+$text-color-dark: #FFFFFF;
+$button-color: #52B7FF33;
+$label-color-dark: #FFFFFF80;
+
+$bg-color-light: #FFFFFF;
+$text-color-light: #000000;
+$label-color-light: #00000080;
+
+// Dark Mode
+:global([data-theme="dark"]) {
+    --bg-color: #{$bg-color-dark};
+    --text-color: #{$text-color-dark};
+    --button-color: #{$button-color};
+    --label-color: #{$label-color-dark};
+}
+
+// Light Mode
+:global([data-theme="light"]) {
+    --bg-color: #{$bg-color-light};
+    --text-color: #{$text-color-light};
+    --button-color: #{$button-color};
+    --label-color: #{$label-color-light};
+}
+
+// Mixin for input field styling
+@mixin input-style {
+    width: 403px;
+    height: 44px;
+    border: none;
+    border-bottom: 2px solid var(--text-color);
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    background: transparent;
+    color: var(--text-color);
+}
+
+// Styles
+.container {
+    background-color: var(--bg-color);
+    width: 35vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.login {
+    width: 403px;
+    height: 511px;
+    gap: 16px;
+}
+
+.login__title {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -2px;
+    color: var(--text-color);
+    width: 100%;
+    margin: 40.2px 0;
+}
+
+.line {
+    width: 403px;
+    height: 4px;
+    border-radius: 2px;
+    background: #64BDFF;
+}
+
+.login__part {
+    width: 403px;
+    height: 41px;
+    margin-top: 20.1px;
+}
+
+.login__line {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.login__form {
+    width: 403px;
+    padding: 32px 0;
+}
+
+.login__input {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+}
+
+.login__inputField {
+    @include input-style;
+}
+
+.eyePassword {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #7D7D7D;
+}
+
+.open, .close {
+    display: block;
+}
+
+.login__label {
+    position: absolute;
+    top: 7.2px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: var(--label-color);
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.login__inputField:focus + .login__label,
+.login__inputField:not(:placeholder-shown) + .login__label {
+    transform: translateY(-65%);
+    font-size: 13px;
+    color: var(--label-color);
+}
+
+.button {
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login__button {
+    width: 141px;
+    height: 56px;
+    border-radius: 32px;
+    border: 2px solid var(--text-color);
+    background: var(--button-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.loginText {
+    width: 61px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinText {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.rightArrow {
+    width: 24px;
+    height: 24px;
+    color: var(--text-color);
+}
+
+.login__button:hover {
+    background: rgba(82, 183, 255, 0.25);
+}
+
+.register {
+    width: 400px;
+    height: 33px;
+}
+
+.register_here {
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.anchor {
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--text-color);
+}

@@ -4,6 +4,7 @@ import prof1 from "./images/profile.png"
 import open from "./images/hamburger.png"
 import styles from "./Navbar.module.scss"
 import { stepLabelClasses } from "@mui/material"
+import "@flaticon/flaticon-uicons/css/all/all.css";
 
 import { NavLink } from "react-router-dom"
 
@@ -54,11 +55,15 @@ const Navbar = () => {
       {/* dark mode btn code start */}
       <div className={styles['dark-mode1']} onClick={toggleDarkMode}>
         <span
-          className={`${styles['material-icons-sharp']} ${!darkMode && styles['active']}`}
-        ></span>
+          className={`${styles['material-icons-sharp']} ${!darkMode && styles['active']}`}  
+        >
+          <i className={`fi fi-sr-brightness ${styles.icon} ${styles["sun-icon"]}`}></i>
+        </span>
         <span
           className={`${styles['material-icons-sharp']} ${darkMode && styles['active']}`}
-        ></span>
+        >
+           <i className={`fi fi-ss-moon ${styles.icon} ${styles["moon-icon"]} `}></i>
+        </span>
       </div>
       {/* dark mode btn code end */}
 

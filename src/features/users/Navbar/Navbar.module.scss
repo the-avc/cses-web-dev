@@ -123,13 +123,33 @@
          align-items: center;
          justify-content: center;
 
+         
+         
          &.active {
             background-color: var(--color-primary);
             color: white;
             border-radius: var(--border-radius-1);
+
+            
          }
       }
+
+      .icon {
+         font-size: 1.2rem; // Adjust size
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100%;
+         width: 100%;         
+         transition: all 0.3s ease-in-out;
+   
+      }
+      span.active .sun-icon {
+         color: #fbc02d; // Sun icon color (Yellow)
+      }
+      
    }
+   
 
    .welcome {
       // display: flex;

@@ -5,18 +5,19 @@ import ErrorPage from '@/pages/error-page/ErrorPage'
 import Home from '@features/home/Home'
 import Landing from '@/components/landing/landing'
 import Society from '../features/initiative'
-import Login from '@features/auth/Login'
+// import Login from '@features/auth/Login'
 import Dashboard from '../features/users/dashboard/Dashboard'
 import ChangePassword from '../features/users/change-password/ChangePassword'
 import Users from '@features/users/Users'
 import AuthLayout from '@/features/auth/AuthLayout'
-import Register from '@/features/auth/Register'
+// import Register from '@/features/auth/Register'
 import Payment from '@/features/users/Payment/Payment'
 import SetPassword from '@/features/auth/SetPassword'
 import BulkRegister from '@/features/users/bulk-register/BulkRegister'
 import ResetUser from '@/features/users/reset-user/ResetUser'
 import AllUsers from '@/features/users/all-users/AllUsers'
-
+import Login from '@/features/login&register/Login'
+import Register from '@/features/login&register/Register'
 const Routes = () => {
   const routesForPublic = [
     {

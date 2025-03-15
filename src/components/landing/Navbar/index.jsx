@@ -28,7 +28,8 @@ const Navbar = ({ navItems }) => {
           GALLERY
         </div>
         <div
-          onClick={() => navigate('/users/dashboard')}
+          // onClick={() => navigate('/users/dashboard')}
+          onClick={() => navigate('/login')}
           className='navItem'
         >
           LOGIN +

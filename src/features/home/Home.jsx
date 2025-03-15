@@ -7,11 +7,12 @@ import OurLeaders from './containers/our-leaders/OurLeaders'
 import OurTeam from '../../components/our-team/OurTeam'
 import WhyUs from './containers/why-us/WhyUs'
 import Navbar from '@/components/landing/Navbar'
+import ScrollToTopButton from '@/components/moveToTop/Movetop' // Import the ScrollToTopButton
 
 const Home = () => {
   return (
-    <div >
-      <Navbar navItems = {['ABOUT', 'REGISTER']} />
+    <div>
+      <Navbar navItems={['ABOUT', 'REGISTER']} />
       <Hero />
       <Company />
       <WhyUs />
@@ -20,6 +21,7 @@ const Home = () => {
       <Contribute />
       <OurLeaders />
       <AlumniRegister />
+      <ScrollToTopButton />
     </div>
   )
 }
